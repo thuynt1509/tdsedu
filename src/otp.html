@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LDP NN18 xương khớp</title>
+    <link rel="stylesheet" href="assets/otp.css">
+
+    <script>
+        const expiresCookie = 365;;
+        const prefixKey = 'NNXH123';
+        const price = 560000;
+    </script>
+</head>
+
+<body class="">
+    
+
+    
+
+    <!--//modal nhập otp addClass(show);-->
+    <div class="show modal" id="modal-success">
+        <div class="modal-dialog w-[877px] max-w-[96%]">
+            <div class="modal-content font-MyriadPro text-[#0A1C5F]">
+            <!-- Modal Header -->
+            <div class="modal-header bg-[#FFB400]">
+                <h4 class="modal-title  font-MyriadProBold flex-1 text-center">NHẬP OTP</h4>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body text-[24px] text-center">
+                <h4 class="rs title-1 font-MyriadProBold text-[30px]">Bạn vui lòng nhập mã OTP đã được gửi đến số điện thoại: <span id="">0977865635</span></h4>
+                <div class="content">
+                    Mã OTP được gửi từ hệ thống <?php echo $siteName; ?>
+                </div>
+                <div class="max-w-[360px] mx-auto mt-[10px] text-left">
+                    <div class="flex ">
+                        <input class="outline-none border-[1px] border-solid border-[#0D297A] h-[40px] flex-1 px-[20px] text-[16px] min-w-[100px]"
+                        type="text" placeholder="Nhập mã OTP"/>
+                        <!-- thêm disabled trong khi count -->
+                        <button type="button" disabled  class="modal-btn h-[40px] ml-[20px] disabled:opacity-25">Gửi lại OTP</button>
+                    </div>
+                    <label id="error-opt" class="error">Nhập sai mã OTP, vui lòng nhập lại!</label>
+                </div>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" id="btn-more-2" class="modal-btn close-modal" 
+                data-dismiss="modal">HOÀN THÀNH</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js_lib/jquery-3.1.1.min.js"></script>
+    <script src="assets/js_lib/jquery.cookie.min.js"></script>
+    <script src="assets/js_lib/jquery.validate.min.js"></script>
+    <script src="assets/main.js"></script>
+</body>
+</html>
